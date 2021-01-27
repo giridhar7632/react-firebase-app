@@ -6,8 +6,8 @@ const App = () => {
 		<React.StrictMode>
 			<div className="container">
 				<header className="header">
-					<h1>Hello World!</h1>
-					<p>React-Firebase-app starter template</p>
+					<h1>Hello World! 👋</h1>
+					<p>React Firebase starter template</p>
 				</header>
 			</div>
 		</React.StrictMode>
