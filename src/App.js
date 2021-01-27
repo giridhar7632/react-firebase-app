@@ -1,12 +1,17 @@
 import React from 'react'
-import './App.css'
+import { render } from 'react-dom'
 
-function App() {
+const App = () => {
 	return (
-		<div className="App">
-			<header className="App-header">Hello World!</header>
-		</div>
+		<React.StrictMode>
+			<div className="container">
+				<header className="header">
+					<h1>Hello World!</h1>
+					<p>React-Firebase-app starter template</p>
+				</header>
+			</div>
+		</React.StrictMode>
 	)
 }
 
-export default App
+render(<App />, document.getElementById('root'))
