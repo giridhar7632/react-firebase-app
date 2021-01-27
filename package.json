@@ -1,36 +1,44 @@
 {
-  "name": "react-firebase-app",
-  "version": "1.0.0",
-  "description": "A starter template of React and Firebase",
-  "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "eslint": "^7.18.0",
-    "eslint-plugin-react": "^7.22.0",
-    "prettier": "^2.2.1"
-  }
+	"name": "react-firebase-app",
+	"version": "1.0.0",
+	"description": "A starter template of React and Firebase",
+	"main": "index.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"dev": "parcel public/index.html",
+		"eject": "react-scripts eject",
+		"format": "prettier \"src/**/*.{js,html}\"  --write",
+		"format:check": "prettier \"src/**/*.{js,html}\" --check",
+		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet --fix",
+		"lint:check": "eslint \"src/**/*.{js,jsx}\" --quiet",
+		"check": "npm run format:check && npm run lint:check",
+		"check:fix": "npm run format && npm run lint"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-scripts": "^4.0.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint": "^7.18.0",
+		"eslint-config-prettier": "^7.2.0",
+		"eslint-plugin-react": "^7.22.0",
+		"parcel-bundler": "^1.12.4",
+		"prettier": "^2.2.1"
+	}
 }
