@@ -1,5 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
+/* Importing firebase */
+import firebase from '../utils/firebase'
 
 const App = () => {
 	return (
