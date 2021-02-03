@@ -13,8 +13,23 @@
 		"check": "npm run format:check && npm run lint:check",
 		"check:fix": "npm run format && npm run lint"
 	},
-	"author": "",
-	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/giridhar7632/react-firebase-app.git"
+	},
+	"keywords": [
+		"React",
+		"ReactDOM",
+		"JavaScript",
+		"firebase",
+		"starter-template",
+		"starter-kit"
+	],
+	"author": "Talla Giridhar",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/giridhar7632/react-firebase-app/issues"
+	},
 	"dependencies": {
 		"firebase": "^8.2.4",
 		"react": "^17.0.1",
@@ -44,7 +59,6 @@
 		"eslint": "^7.18.0",
 		"eslint-config-prettier": "^7.2.0",
 		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-jsx-a11y": "^6.4.1",
 		"eslint-plugin-react": "^7.22.0",
 		"eslint-plugin-react-hooks": "^4.2.0",
 		"parcel-bundler": "^1.12.4",

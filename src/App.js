@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 /* Importing firebase */
+// eslint-disable-next-line no-unused-vars
 import firebase from '../utils/firebase'
 
 const App = () => {
